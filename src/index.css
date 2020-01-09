@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, #root, body, .App {
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Ubuntu','Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #D9D9F3;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.center-content {
+  align-items: center;
+  justify-content: center;
+}
+
+.invisible {
+  display: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  margin: 30px;
+  padding: 16px;
+}
+
+.card-content {
+  width: 100%;
+  padding: 0;
+  text-align: left;
+}
+
+.todo-item, .todo-input {
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+
+.todo-item-delete-icon {
+  vertical-align: middle;
 }
