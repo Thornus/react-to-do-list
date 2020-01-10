@@ -1,4 +1,4 @@
-![React To Do List](/screenshots/to-do-screenshot.png)
+<img src="/screenshots/to-do-screenshot.png" width="80%" alt="React To Do List">
 
 # To Do List
 
