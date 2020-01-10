@@ -29,7 +29,7 @@ export default class ToDoItem extends React.Component {
         </Typography>
 
         <Typography variant="subtitle1" gutterBottom>
-          {this.props.date}
+          Due: {this.props.date}
         </Typography>
 
         <Checkbox
