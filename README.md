@@ -1,3 +1,5 @@
+![React To Do List](/screenshots/to-do-screenshot.png)
+
 # To Do List
 
 ## Summary
